@@ -1,7 +1,7 @@
-export default [
+const projects = [
 	{
 		name: "Portfolio Website",
-		media: ["./portfolio_website_homepage.png"],
+		media: ["portfolio_website_homepage.png"],
 		description:
 			"This portfolio website was created entirely by myself, no template :) . It uses React and Vite and was my first learning experience of React. I had a lot of fun making it, especially the circular button in the corner, my first ever React component.",
 		links: [],
@@ -9,7 +9,7 @@ export default [
 	{
 		name: "Pathfinding Bots",
 		media: [
-			"./path_finding_image.png",
+			"path_finding_image.png",
 			"path_finding_demo.mp4",
 			"nextbot_demo.mp4",
 		],
@@ -91,4 +91,18 @@ export default [
 			},
 		],
 	},
-];
+].map((x) => ({
+	...x,
+	media: x.media.map((m) => {
+		if (m.startsWith("https://")) {
+			return m;
+		} else {
+			return (
+				"https://media.githubusercontent.com/media/CooperMorris0/coopermorris0.github.io/refs/heads/main/media/" +
+				m
+			);
+		}
+	}),
+}));
+
+export default projects;
