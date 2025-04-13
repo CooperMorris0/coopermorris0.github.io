@@ -24,8 +24,8 @@ export default [
 		media: [
 			"particle_life_image.png",
 			"particle_life_demo.mp4",
-			"particle_life_mc_demo_1.mp4",
-			"particle_life_mc_demo_2.mp4",
+			"https://cdn.discordapp.com/attachments/1248024989131603968/1248024992013222008/8mb.video-372-LpbYvxo0.mp4?ex=67fc2bd9&is=67fada59&hm=1217d33f3352b134b5696e24d63b022985fa6c57e5a8300740d503c57d893007&",
+			"https://cdn.discordapp.com/attachments/1248024989131603968/1248024990603808818/8mb.video-MEP-JaTR02f9.mp4?ex=67fc2bd8&is=67fada58&hm=0a15962781bd890b0c64e99e418420c5df6d6e292c4cc02860abf070ecb36144&",
 		],
 		links: [
 			{

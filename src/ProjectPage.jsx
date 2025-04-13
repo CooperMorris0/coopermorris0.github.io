@@ -13,7 +13,7 @@ function ProjectPage() {
 		<div className="project_page">
 			<div style={{ display: "flex", flexDirection: "column" }}>
 				{project.media.map((m, i) => {
-					if (m.endsWith(".mp4")) {
+					if (m.endsWith(".mp4") || m.includes("discordapp")) {
 						return <video key={i} controls src={m} />;
 					} else {
 						return <img key={i} src={m} />;
