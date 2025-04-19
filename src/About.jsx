@@ -47,6 +47,7 @@ function About() {
 					Math
 					<ul>
 						<li>Algebra</li>
+						<li>Geometry</li>
 						<li>Basics of Trigonometry, Linear Algebra and Calculus</li>
 					</ul>
 				</li>
