@@ -4,10 +4,10 @@ function About() {
 			<h1 className="page_title">About Me</h1>
 			<h3>
 				<span style={{ display: "inline-block", maxWidth: "850px" }}>
-					Hello! I'm Cooper Morris. I'm a programmer from California. I
-					specialize mostly in backend, although I do know the basics of front
-					end. You can view some projects I'm proud of or contact me by
-					referring to the nav bar, or check out some of my skills below.
+					Hello! I'm Cooper Morris. I'm a programmer from California. I love
+					problem solving, and always enjoy learning something new about math or
+					science. You can view some projects I'm proud of or contact me by via
+					the links in the nav bar, or check out some of my skills below.
 				</span>
 			</h3>
 			<ul className="text_holder">
@@ -43,6 +43,13 @@ function About() {
 				<li>Haskell</li>
 				<li>HTML, CSS, JS</li>
 				<li>GDScript (Godot Game Engine)</li>
+				<li>
+					Math
+					<ul>
+						<li>Algebra</li>
+						<li>Basics of Trigonometry, Linear Algebra and Calculus</li>
+					</ul>
+				</li>
 			</ul>
 		</>
 	);
